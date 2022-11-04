@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagerConsole", "EmployeeManagerConsole\EmployeeManagerConsole.csproj", "{5991C745-73A1-4CBD-AD25-C6C453F809C8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{25D31D54-E93B-4E4D-BC58-A3471586B8E6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5991C745-73A1-4CBD-AD25-C6C453F809C8} = {5991C745-73A1-4CBD-AD25-C6C453F809C8}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
