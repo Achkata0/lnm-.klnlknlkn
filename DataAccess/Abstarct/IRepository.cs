@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstarct
 {
-    public interface IRepository<T>
+    public interface IRepository<T> 
     {
         T GetById(int id);
         T Get(int id);  

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Models
 {
-    internal class VacationRequest
+    public class VacationRequest
     {
         public int VacationRequestId { get; set; }
         public int UserId { get; set; }

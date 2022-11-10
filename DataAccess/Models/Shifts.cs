@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Models
 {
-    internal class Shifts
+    public class Shifts
     {
         public int ShiftId { get; set; }
         public string ShiftName { get; set; }

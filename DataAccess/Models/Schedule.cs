@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Models
 {
-    internal class Schedule
+    public class Schedule
     {
         public int SchedileId { get; set; }
         public int ShiftId { get; set; }
